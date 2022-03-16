@@ -52,7 +52,7 @@
   background: #ff4820;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1px;
   line-height: 25px;
   border: none;
   outline: none;
@@ -221,12 +221,12 @@
     display: block;
   }
 }
-tainer p {
+.container p {
   margin: 1rem 0;
 }
 
 .gpt3__navbar-menu_container-links-sign {
-  display: none;
+  /* display: none; */
 }
 
 @media screen and(max-width:1050px) {
