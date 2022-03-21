@@ -7,19 +7,19 @@ const brand = () => {
     <div>
       {" "}
       <div className="gpt3__brand section__padding">
-        <div>
+        <div data-aos="fade-up">
           <img src={google} />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={slack} />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={atlassian} />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={dropbox} />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={shopify} />
         </div>
       </div>
