@@ -5,10 +5,20 @@ import "./possibility.css";
 const Possibility = () => {
   return (
     <div className="gpt3__possibility section__padding" id="possibility">
-      <div className="gpt3__possibility-image">
+      <div
+        className="gpt3__possibility-image"
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
         <img src={possibilityImage} alt="possibility" />
       </div>
-      <div className="gpt3__possibility-content">
+      <div
+        className="gpt3__possibility-content"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+      >
         <h4>Request Early Access to Get Started</h4>
         <h1 className="gradient__text">
           The possibilities are <br /> beyond your imagination

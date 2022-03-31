@@ -3,7 +3,13 @@ import Feature from "../../components/feature/Feature";
 import "./whatGPT3.css";
 
 const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div
+    className="gpt3__whatgpt3 section__margin"
+    id="wgpt3"
+    data-aos="fade-in"
+    data-aos-delay="100"
+    data-aos-duration="1000"
+  >
     <div className="gpt3__whatgpt3-feature">
       <Feature
         title="What is GPT-3"

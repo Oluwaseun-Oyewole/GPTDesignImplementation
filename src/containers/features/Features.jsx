@@ -22,7 +22,13 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
+  <div
+    className="gpt3__features section__padding"
+    id="features"
+    data-aos="zoom-in"
+    data-aos-delay="100"
+    data-aos-duration="1000"
+  >
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">
         The Future is Now and You Just Need to Realize It. Step into Future

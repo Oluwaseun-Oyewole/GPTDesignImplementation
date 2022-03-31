@@ -4,7 +4,12 @@ import gpt3Logo from "../../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="gpt3__footer section__padding">
+    <div
+      className="gpt3__footer section__padding"
+      data-aos="fade-in"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
           Do you want to step in to the future before others
